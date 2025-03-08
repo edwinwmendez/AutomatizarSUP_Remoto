@@ -1,10 +1,40 @@
-# .gitignore
+# Código fuente privado
+codigo_principal.py
+encriptador_script.py
+desencriptar_script.py
+codigo_desencriptado.py
+*_backup.py
+
+# Entornos virtuales
 venv/
+env/
+.env/
+
+# Archivos de caché de Python
 __pycache__/
-*.pyc
-*.pyo
-*.exe
-*.spec
-build/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Distribución y empaquetado
 dist/
-.env
+build/
+*.egg-info/
+*.egg
+
+# Archivos de logs y datos temporales
+*.log
+*.csv
+*.xlsx
+tmp/
+temp/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos IDE (si usas alguno)
+.idea/
+.vscode/
+*.swp
+*.swo
