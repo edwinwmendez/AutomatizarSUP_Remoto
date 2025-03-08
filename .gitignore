@@ -3,6 +3,7 @@ codigo_principal.py
 encriptador_script.py
 desencriptar_script.py
 codigo_desencriptado.py
+loader_amigo.py
 *_backup.py
 
 # Entornos virtuales
