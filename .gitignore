@@ -1,5 +1,7 @@
 # Código fuente privado
 codigo_principal.py
+codigo_principal_todo_modulo.py
+
 encriptador_script.py
 desencriptar_script.py
 codigo_desencriptado.py
